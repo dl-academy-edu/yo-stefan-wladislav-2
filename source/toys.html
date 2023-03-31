@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>DL Academy</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+<body>
+
+<!-- HEADER -->
+@@include('blocks/header.html')
+
+    <!-- MAIN -->
+
+    <main class="main">
+        
+         <!-- TOYS -->
+    <section class="toys container">
+        <div class="toys__wrapper">
+
+            <h2 class="toys__title">TOYS FOR KIDS</h2>
+
+            <div class="page">
+                <a class="page__link" href="index.html">Home</a>
+                <img class="page__img" src="img/ar-page.png" alt="#">
+                <a class="page__link" href="catalog.html">Catalog</a>
+                <img class="page__img" src="img/ar-page.png" alt="#">
+                <a class="page__link" href="toys.html">Toys</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="toys__option">
+        <h2 class="hidden">Option</h2>
+    
+        <div class="toys__option-wrapper container">
+            <form class="toys__form">
+                <div class="toys__form-container">
+
+                    <div class="form__slider">
+                        <p class="cost__title">Cost</p>
+                            <input class="slider hidden" type="range" value="30" min="0" max="500" oninput="rangevalue.value=value"/>
+                        
+                            <ul class="slider__list">
+                                <li class="slider__list-start">0</li>
+                                <li class="slider__list-end">500</li>
+                            </ul>    
+                        
+                            <output class="slider__rez hidden" id="rangevalue">30</output>
+                    </div>
+
+                    <div class="form__color">
+                        <p class="color__title">Color</p>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox" checked>
+                        <span class="check__box"></span>
+                            Black
+                        </label>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox">
+                        <span class="check__box"></span>
+                            Blue
+                        </label>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox">
+                        <span class="check__box"></span>
+                            Green
+                        </label>
+                        
+                        <label class="check option">
+                        <input class="check__input" type="checkbox">
+                        <span class="check__box"></span>
+                            White
+                        </label>
+                    </div>
+
+                    <div class="form__delivery">
+                        <p class="delivery__title">Delivery</p>
+                        
+                        <label class="radio__delivery option">
+                            <input type="radio" name="delivery" class="radio__input">
+                            <span class="radio__circle"></span>
+                            Free shipping
+                        </label>
+                        
+                        <label class="radio__delivery option">
+                            <input type="radio" name="delivery" class="radio__input" checked>
+                            <span class="radio__circle"></span>
+                            Fast shipping
+                        </label>
+                    </div>
+
+                    <div class="radio__cont">
+                        <p class="amount__title">Amount</p>
+                        <div class="radio__form-wr">
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="term" />
+                            <span class="radio__fake">0-5</span>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="term" />
+                            <span class="radio__fake">10-20</span>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="term" />
+                            <span class="radio__fake">20-50</span>
+                        </label>
+                        </div>
+                    </div>
+                    <input type="button" value="APPLY" class="amount__button">
+
+                </div>
+            </form>
+        </div>
+        </section>
+
+        <section class="toys__catalog container">
+            <div class="learn">
+                <p class="learn__more">learn more</p>
+            </div>
+            <div class="toys__catalog-wrapper">
+                <h2 class="hidden">catalog</h2>
+                <ul class="catalog__list-one">
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-one.png" alt="#">
+                        <p class="catalog__list-content">SHARKY BEAN BAG CHAIR COVER</p>
+                        @@include('blocks/link.html',{
+                            'name': "className"
+                        })
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-two.png" alt="#">
+                        <p class="catalog__list-content">BRASS DECO FRAMES</p>
+                        <a class="catalog__list-price" href="#">$66.00 USD</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-three.png" alt="#">
+                        <p class="catalog__list-content">CIBO FULL APRON</p>
+                        <a class="catalog__list-price" href="#">$60.00 USD</a>
+                    </li>
+                </ul>
+                <ul class="catalog__list-two">
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-four.png" alt="#">
+                        <p class="catalog__list-content">GATCHA GATCHA GUMBALL MACHINE</p>
+                        <a class="catalog__list-price" href="#">$56.00 USD</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-five.png" alt="#">
+                        <p class="catalog__list-content">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                        <a class="catalog__list-price" href="#">$29.00 USD</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <img class="catalog__list-img" src="img/toys-six.png" alt="#">
+                        <p class="catalog__list-content">TANGLE SPINNING TEA LIGHT</p>
+                        <a class="catalog__list-price" href="#">$56.00 USD</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="page__catalog-wrapper">
+                <button class="switch__arrow"><img src="img/next-page-left.png" class="catalog__arrow" alt="#"></button>
+                <ul class="catalog__list-page">
+                    <li class="catalog__list-item">
+                        <a class="catalog__num" href="#">1</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <a class="catalog__list-page" href="#">2</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <a class="catalog__list-page" href="#">3</a>
+                    </li>
+                    <li class="catalog__list-item">
+                        <a class="catalog__list-page" href="#">4</a>
+                    </li>
+                </ul>
+                <button class="switch__arrow"><img src="img/next-page-right.png" class="catalog__arrow" alt="#"></button>
+            </div>
+        </section>
+        </main>
+
+        <script src="js/slider.js"></script>
+        <script src="js/app.js" defer></script>
+        @@include('blocks/footer.html')
+</body>
+</html>

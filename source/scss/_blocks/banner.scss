@@ -1,0 +1,140 @@
+.banner {
+    position: relative;
+  }
+  
+  .banner__img {
+    position: absolute;
+    width: 635px;
+    top: -46px;
+    left: 443px;
+    bottom: -47px;
+  }
+  
+  .banner__wrapper {
+    background-color: #EEE4DB;
+    margin-top: 90px;
+  }
+  
+  .banner__one {
+    display: flex;
+    margin-top: 17px;
+    margin-left: 28px;
+  }
+  
+  .banner__one-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+    margin-top: 17px;
+  }
+  
+  .banner__list-one {
+    margin-top: 10px;
+    margin-left: 28px;
+    padding: 0;
+  }
+  
+  .banner__list-two {
+    margin-top: 89px;
+    margin-bottom: 89px;
+  }
+  
+  .banner__button-main {
+    background: rgba(30, 6, 6, 0.6);
+    width: 31px;
+    height: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .banner__button {
+    background: #D6CAC2;
+    width: 31px;
+    height: 3px;
+    border: none;
+  }
+  
+  .banner__button:hover {
+    background: #725F5B;
+    cursor: pointer;
+  }
+  
+  .banner__two {
+    display: flex;
+    margin-top: 11px;
+    margin-left: 44px;
+    column-gap: 20px;
+  }
+  
+  .banner__two-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    margin-bottom: 20px;
+    width: 307px;
+  }
+  
+  .banner__two-content {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    margin-bottom: 20px;
+  }
+  
+  .banner__two-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 22px;
+    background: #000000;
+  
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .banner__two-button:hover {
+    background: #C29974;
+  }
+  
+  .banner__two-button:active {
+    background: #CFAF91;
+  }
+  
+  .banner__two-button:disabled {
+    background: #C7C1C1;
+  }
+  
+  .banner__footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #C29974;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }

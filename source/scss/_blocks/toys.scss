@@ -1,51 +1,33 @@
 /*TOYS*/
-.learn {
+.learn__more {
     width: 207px;
     height: 207px;
-    position: absolute;
-    margin-left: 87px;
-    margin-top: 89px;
-
-    z-index: 5;
-}
-
-.learn__more {
-    position: absolute;
-    padding-top: 85px;
-    padding-left: 13px;
-    font-family: 'Montserrat';
+    background: #e5eaf8;
+    display: flex;
+    margin-left: 80px;
+    margin-top: -290px;
+    margin-bottom: 90px;
+    font-family: Montserrat;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
     line-height: 29px;
+    opacity: 0;
+    padding-left: 13px;
+    padding-top: 85px;
     text-align: center;
     text-transform: uppercase;
-    display: none;
-    z-index: 50;
 }
 
-.learn:hover {
-    background: #E5EAF8;
-    opacity: 0.9;
-    display: block;
-    z-index: 5;
-}
 
 .learn__more:hover {
-    display: block;
-    z-index: 30;
-}
-
-.learn:active {
-    background: #E5EAF8;
+    opacity: 1;
     opacity: 0.67;
-    display: block;
-    z-index: 5;
 }
 
 .learn__more:active {
-    display: block;
-    z-index: 50;
+    opacity: 1;
+    opacity: 0.47;
 }
 
 .page {
@@ -92,30 +74,30 @@
     padding-right: 195px;
 }
 
-.catalog__list-one {
+.toys__list-one {
     padding: 0;
     display: flex;
     column-gap: 20px;
     margin-bottom: 20px;
 }
 
-.catalog__list-two {
+.toys__list-two {
     padding: 0;
     display: flex;
     column-gap: 20px;
 }
 
-.catalog__list-page {
+.toys__list-page {
     padding: 0;
     display: flex;
     column-gap: 67px;
 }
 
-.catalog__list-item {
+.toys__list-item {
     max-width: 380px;
 }
 
-.catalog__list-content {
+.toys__list-content {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -125,7 +107,7 @@
     color: #1E0606;
 }
 
-.catalog__list-price {
+.toys__list-price {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -137,13 +119,13 @@
     margin-left: 150px;
 }
 
-.page__catalog-wrapper {
+.page__toys-wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 53px;
 }
 
-.catalog__num {
+.toys__num {
     display: flex;
     font-family: 'Montserrat';
     font-style: normal;
@@ -154,7 +136,7 @@
     color: #C29974;
 }
 
-.catalog__list-page {
+.toys__list-page {
     display: flex;
     font-family: 'Montserrat';
     font-style: normal;
@@ -165,16 +147,16 @@
     color: #1E0606;
 }
 
-.catalog__list-page:hover {
+.toys__list-page:hover {
     color: #AAAAAA;
 }
 
-.catalog__list-img:hover {
+.toys__list-img:hover {
     background: #E5EAF8;
     opacity: 0.9;
 }
 
-.catalog__list-img:active {
+.toys__list-img:active {
     background: #E5EAF8;
     opacity: 0.67;
 }

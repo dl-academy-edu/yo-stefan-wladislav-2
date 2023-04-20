@@ -101,16 +101,16 @@
   /*popup*/
   
   .popup {
+    display: flex;
+    z-index: 1;
+  }
+  
+  .popup__wrapper {
     display: none;
     top: 1%;
     left: 25%;
     position: absolute;
     z-index: 2;
-  }
-  
-  .popup__wrapper {
-    display: flex;
-    z-index: 1;
   }
   
   .open {

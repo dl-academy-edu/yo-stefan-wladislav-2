@@ -55,6 +55,7 @@
 }
 
 .logo {
+    transition: 0.5s;
     &:hover {
         opacity: 0.3;
     }
@@ -64,6 +65,7 @@
 }
   
 .header__list-link {
+    transition: 0.5s;
     &:hover {
         opacity: 0.3;
     }

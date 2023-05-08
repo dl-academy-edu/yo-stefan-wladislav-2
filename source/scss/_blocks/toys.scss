@@ -21,11 +21,13 @@
 
 
 .learn__more:hover {
+    transition: 0.4s;
     opacity: 1;
     opacity: 0.67;
 }
 
 .learn__more:active {
+    transition: 0.4s;
     opacity: 1;
     opacity: 0.47;
 }

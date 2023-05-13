@@ -5,10 +5,11 @@
     justify-content: center;
   }
   
-  .form__container {
+  .popup__container {
     width: 680px;
-    height: 542px;
+    height: 622px;
     background-color: #E5EAF8;
+    margin-top: 113px;
     padding-top: 65px;
     padding-left: 40px;
     padding-bottom: 42px;
@@ -55,7 +56,7 @@
     padding-left: 22px;
     padding-right: 22px;
     padding-top: 9px;
-    padding-bottom: 9px;
+    padding-bottom: 20px;
   
     color: #FFFFFF;
   }
@@ -100,12 +101,9 @@
   
   /*popup*/
   
-  .popup {
-    display: flex;
-    z-index: 1;
-  }
+ 
   
-  .popup__wrapper {
+  .popup {
     display: none;
     top: 1%;
     left: 25%;
@@ -128,9 +126,12 @@
   }
   
   .modal__close {
+    display: flex;
     width: 15px;
     height: 15px;
-    margin-left: 10px;
+    margin-left: 685px;
+    margin-top: -621px;
+    
     padding: 0;
     border: none;
     font: inherit;
@@ -170,8 +171,8 @@
   }
   
   /*checkbox*/
-  .check {
-    padding-left: 20px;
+  .check__rule {
+    padding-left: 30px;
   }
   
   .check__input {

@@ -12,139 +12,170 @@
         margin-top: 120px;
     }
     &__car-one {
-        position: absolute;
-        top: 75%;
         left: 2%;
-        animation: car_one 29s linear infinite;
+        position: absolute;
+        top: 90%;
+        animation: car_one 25s linear infinite;
     }
     &__img-car--one {
-        width: 200px;
+        width: 140px;
     }
     &__front-car--one {
-        left: 145px;
+        left: 101px;
         position: absolute;
-        top: 47px;
-        width: 35px;
+        top: 31px;
+        width: 26px;
         animation: wheels 8s linear infinite;
     }
     &__back-car--one {
-        left: 29px;
+        left: 19px;
         position: absolute;
-        top: 46px;
-        width: 35px;
+        top: 31px;
+        width: 26px;
         animation: wheels 4s linear infinite;
     }
     &__car-two {
-        position: absolute;
-        top: 73%;
         left: 30%;
-        animation: car_two 31s linear infinite;
+        position: absolute;
+        top: 87%;
+        animation: car_two 25s linear infinite;
+    }
+    &__img-car--two {
+        width: 150px;
     }
     &__front-car--two {
-        left: 153px;
         position: absolute;
-        top: 63px;
-        width: 35px;
+        top: 46px;
+        width: 26px;
+        left: 112px;
         animation: wheels 8s linear infinite; 
     }
     &__back-car--two {
-        left: 15px;
         position: absolute;
-        top: 63px;
-        width: 35px;
+        top: 46px;
+        width: 26px;
+        left: 11px;
         animation: wheels 8s linear infinite;
     }
     &__car-three {
-        position: absolute;
-        top: 80%;
         left: 49%;
-        animation: car_three 30s linear infinite;
+        position: absolute;
+        top: 91%;
+        animation: car_three 25s linear infinite;
+    }
+    &__img-car--three {
+        width: 140px;
     }
     &__front-car--three {
-        left: 185px;
         position: absolute;
-        top: 36px;
-        width: 29px;
+        top: 20px;
+        width: 18px;
+        left: 104px;
         animation: wheels 8s linear infinite; 
     }
     &__back-car--three {
-        left: 42px;
         position: absolute;
-        top: 36px;
-        width: 29px;
+        top: 20px;
+        width: 18px;
+        left: 23px;
         animation: wheels 8s linear infinite;
     }
     &__car-four {
-        position: absolute;
-        top: 72%;
         left: 82%;
-        animation: car_four 29s linear infinite;
+        position: absolute;
+        top: 88%;
+        animation: car_four 25s linear infinite;
     }
     &__img-car--four {
-        width: 200px;
+        width: 140px;
     }
     &__front-car--four {
-        left: 144px;
         position: absolute;
-        top: 56px;
-        width: 39px;
+        top: 38px;
+        width: 29px;
+        left: 100px;
         animation: wheels 8s linear infinite; 
     }
     &__back-car--four {
-        left: 26px;
         position: absolute;
-        top: 56px;
-        width: 39px;
+        top: 38px;
+        width: 29px;
+        left: 18px;
         animation: wheels 8s linear infinite;
     }
     &__lights-first {
-        position: absolute;
         left: 18%;
-        top: 51%;
-        width: 110px;
+        position: absolute;
+        top: 63%;
+        width: 100px;
     }
     &__lights-second {
-        position: absolute;
         left: 95%;
-        top: 51%;
+        position: absolute;
+        top: 63%;
         width: 109px;
     }
     &__taxi {
-        position: absolute;
-        top: 93%;
         left: 82%;
+        position: absolute;
+        top: 99%;
         animation: taxi 29s linear infinite;
     }
     &__taxi-message {
+        left: 71px;
         position: absolute;
-        top: -70px;
-        left: 110px;
-        width: 150px;
+        top: -51px;
+        width: 96px;
         animation: taxi_message 40s linear infinite;
     }
     &__img-taxi {
         position: relative;
-        width: 450px;
+        width: 300px;
     }
     &__front-taxi {
-        left: 325px;
         position: absolute;
-        top: 89px;
-        width: 45px;
+        top: 59px;
+        width: 31px;
+        left: 215px;
         animation: wheels 2s linear infinite; 
     }
     &__back-taxi {
-        left: 64px;
         position: absolute;
-        top: 89px;
-        width: 45px;
+        top: 59px;
+        width: 31px;
+        left: 42px;
         animation: wheels 2s linear infinite;
     }
     &__light {
-        position: absolute;
-        top: 60%;
         left: 80%;
-        width: 160px;
+        position: absolute;
+        top: 80%;
+        width: 115px;
+    }
+    &__man {
+        position: absolute;
+        top: 90%;
+        left: 12%;
+        width: 100px;
+    }
+    &__man-message {
+        left: 12%;
+        position: absolute;
+        top: 84%;
+        width: 90px; 
+    }
+    &__woman {
+        position: absolute;
+        top: 99%;
+        left: 5%;
+        width: 130px;
+        z-index: 1;
+    }
+    &__woman-message {
+        left: 4%;
+        position: absolute;
+        top: 92%;
+        width: 80px;
     }
 }
 
@@ -212,13 +243,10 @@
     0% {
         opacity: 0;
     }
-    45% {
+    50% {
+        opacity: 0;
+    }
+    52% {
         opacity: 1;
-    }
-    49% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
     }
 }

@@ -163,6 +163,7 @@
         position: absolute;
         top: 84%;
         width: 90px; 
+        animation: mm 33s linear infinite;
     }
     &__woman {
         position: absolute;
@@ -176,6 +177,7 @@
         position: absolute;
         top: 92%;
         width: 80px;
+        animation: wm 30s linear infinite;
     }
 }
 
@@ -248,5 +250,38 @@
     }
     52% {
         opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes mm {
+    0% {
+        opacity: 0;
+    }
+    47% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes wm {
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    47% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }

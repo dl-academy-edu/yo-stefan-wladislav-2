@@ -1,0 +1,247 @@
+
+/** FOOTER **/
+.footer {
+  background-color: #434343;
+  padding: 0;
+}
+
+.footer__list-connect {
+  width: 380px;
+}
+
+.footer__wrapper {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #666666;
+  margin-top: 60px;
+  padding-top: 100px;
+}
+
+.footer__list {
+  width: 380px;
+}
+
+.footer__nav {
+  border-bottom: 1px solid #666666;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 28px;
+  padding-bottom: 23px;
+  color: #AAAAAA;
+}
+
+.footer__info {
+  border-bottom: 1px solid #666666;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 28px;
+  padding-bottom: 23px;
+  color: #AAAAAA;
+}
+
+.footer__connect {
+  border-bottom: 1px solid #666666;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 28px;
+  padding-bottom: 23px;
+  color: #AAAAAA;
+}
+
+.footer__list-item {
+  margin-bottom: 28px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.footer__list-item:hover {
+  opacity: 0.5;
+}
+
+.footer__list-item:active {
+  opacity: 0.2;
+}
+
+.footer_rating__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  margin-right: 109px;
+  color: #FFFFFF;
+}
+
+.footer_rating__link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #A2A2A2;
+}
+
+.connect__form {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.connect__form-email {
+  background: #666666;
+  padding-left: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.connect__form-button {
+  background: black;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 22px;
+  padding-right: 22px;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.connect__form-email {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #EBEBEB;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #EBEBEB;
+}
+
+.social__icon-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.social__icon-img:hover {
+  opacity: 0.5;
+}
+
+.social__icon-img:active {
+  opacity: 0.2;
+}
+
+/*footer__rating*/
+
+.rating {
+  font-size: 21px;
+  display: flex;
+  margin-top: 23px;
+  padding-bottom: 100px;
+  /*flex-direction: row-reverse;
+  justify-content: flex-end;*/
+}
+
+.rating__input {
+  display: none;
+}
+
+.rating__label {
+  cursor: pointer;
+  position: relative;
+  color: #c4a642;
+}
+
+.rating__label::before {
+  content: "★";
+  position: absolute;
+  opacity: 0;
+}
+
+.rating__label:hover::before {
+  opacity: 1;
+}
+
+.rating__label:hover ~ .rating__label::before /*На тот элементам на которые мы наводим, всем последующим элементам мы указываем непрозрачность */ {
+  opacity: 1;
+}
+
+.rating__input:checked ~ .rating__label::before,
+.rating__input:checked ~ .rating__label::before {
+  opacity: 1;
+}
+
+.rating__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  color: #FFFFFF;
+}
+
+.rating__footer-wrapper {
+  display: flex;
+}
+
+.footer_rating__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  margin-right: 109px;
+  margin-left: 155px;
+  color: #FFFFFF;
+}
+
+.footer_rating__link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #A2A2A2;
+}
+
+.footer_rating__link:hover {
+  text-decoration: underline;
+}

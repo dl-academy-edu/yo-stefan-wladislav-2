@@ -1,0 +1,110 @@
+/*about*/
+
+.about {
+    margin-right: 57px;
+    &__wrapper {
+      display: flex;
+      margin-top: 90px; 
+    }
+    &__list {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 27px;
+      background-color: #E1F0F7;
+      width: 543px;
+      position: relative;
+    }
+    &__title {
+      position: absolute;
+      top: -30px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+      text-transform: uppercase;
+      color: #1E0606;
+      padding-top: -30px;
+      margin-bottom: 10px;
+    }
+    &__title-two {
+      font-family: 'Crimson Text';
+      font-style: italic;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 34px;
+      color: #1E0606;
+      padding-top: 30px;
+      margin-bottom: 10px;
+      padding-top: 31px;
+    }
+    &__content {
+      width: 483px;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #1E0606;
+      margin-bottom: 20px;
+    }
+    &__button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 9px 22px;
+      background: #000000;
+      
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+
+  /*contact*/
+  
+  .contact {
+    &__list {
+      padding-top: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 102px;
+      background-color: #E1F0F7;
+    }
+    &__title {
+      margin-top: -60px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+      text-transform: uppercase;
+      color: #1E0606;
+      margin-bottom: 18px;
+    }
+    &__content {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #1E0606;
+      margin-bottom: 30px;
+    }
+    &__map {
+      height: 196px;
+      margin-left: 46px;
+      margin-top: -114px;
+      width: 483px;
+    }
+  }

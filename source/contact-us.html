@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>DL Academy</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+<body>
+
+<!-- HEADER -->
+@@include('blocks/header.html')
+
+<!-- MAIN -->
+
+<main class="main">
+        
+<!-- CONTACT US -->
+    <section class="contact__page container">
+        <h2 class="contact__us-title">Contact Us</h2>
+            <div class="contact__wrapper">
+                <a class="contact__link" href="index.html">Home</a>
+                <img class="contact__arrow" src="img/ar-page.png" alt="#">
+                <a class="contact__link" href="catalog.html">Contact Us</a>
+            </div>
+    </section>
+            
+<!-- FORM -->
+    <section class="form container">
+        <div class="form__wrapper">
+            <div class="form__contact">
+                <h2 class="hidden">Footer</h2>
+                    <form class="contact__us-form" action="/" method="post">
+                        <div class="form__container">
+                            <div class="form__group">
+                                <label class="form__label" for="form_name">Name
+                                    <input class="form__name" type="text" name="name" id="form_name" required>
+                                </label>
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label" for="form_tel">Phone
+                                    <input class="form__input form__tel" type="tel" name="tel" id="form_tel" required>
+                                </label>
+                                <label class="form__label" for="form_email">Email
+                                    <input class="form__input" type="email" name="email" id="form_email" required>
+                                </label>
+                                    
+                            </div>
+                           
+                            <div class="form__group">
+                                <label class="form__label" for="form_message">Message
+                                    <textarea class="form__message" name="message" id="form_message" required>
+                                </textarea>
+                                </label>
+                            </div>
+                            <div class="form__rule">
+                                <label class="check">
+                                    <input class="check__input" type="checkbox">
+                                    <span class="check__box"></span>
+                                    By clicking on the button, you consent to the processing of your personal data
+                                </label>
+                            </div>
+                                <input class="form__button" type="submit" value="SUBMIT">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form__content--wrapper">
+                    <p class="form__content">Our support team are on-hand to assist with any issues you are experiencing.</p>
+                    <p class="form__content">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                    <p class="form__content--link">An expert is waiting to help you!</p>
+                </div>
+        </div>
+    </section>
+</main>
+
+
+<script src="js/app.js" defer></script>
+@@include('blocks/footer.html')
+</body>
+</html>

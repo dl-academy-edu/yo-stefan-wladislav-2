@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>DL Academy</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+        var docElement = document.documentElement;
+        docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    @@include('blocks/header.html')
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- Category Products -->
+        <section class="catalog container">
+            <div class="catalog__wrapper">
+
+                <h2 class="catalog__title">Category Products</h2>
+                
+                    <a class="page__link" href="index.html">Home</a>
+                    <img class="page__arrow" src="img/ar-page.png" alt="#">
+                    <a class="page__link" href="catalog.html">Catalog</a>
+
+                <div class="catalog__wrapper-up">
+                    <ul class="catalog__list">
+                        <li class="catalog__list-item"><img class="catalog__list-img" src="img/prod-one.png"
+                                alt="sweater"><a href="#" class="catalog__list-link">
+                                <p class="catalog__list-title">APPAREL KIDS</p>
+                            </a></li>
+                        <li class="catalog__list-item"><img class="catalog__list-img" src="img/prod-two.png"
+                                alt="sweater"><a href="#" class="catalog__list-link">
+                                <p class="catalog__list-title">HOLIDAY SHOP</p>
+                            </a></li>
+                        <li class="catalog__list-item"><img class="catalog__list-img"
+                                src="img/prod-three.png" alt="sweater"><a href="toys.html" class="catalog__list-link">
+                                <p class="catalog__list-title">TOYS</p>
+                            </a></li>
+                    </ul>
+                </div>
+
+                <div class="catalog__wrapper-down">
+                    <ul class="catalog__list">
+                        <li class="catalog__list-item"><img class="catalog__list-img" src="img/prod-four.png"
+                                alt="sweater"><a href="#" class="catalog__list-link">
+                                <p class="catalog__list-title">ACCESSORIES</p>
+                            </a></li>
+                        <li class="catalog__list-item"><img class="catalog__list-img" src="img/prod-five.png"
+                                alt="sweater"><a href="#" class="catalog__list-link">
+                                <p class="catalog__list-title">SALE</p>
+                            </a></li>
+                        <li class="catalog__list-item"><img class="catalog__list-img" src="img/prod-six.png"
+                                alt="sweater"><a href="#" class="catalog__list-link">
+                                <p class="catalog__list-title">APPAREL ADULTS</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="prod container">
+            <div class="prod__desc-wrapper">
+                <h2 class="prod__desc-title">Product Description</h2>
+                <p class="prod__desc-content">
+                    Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry.
+                    You can even bathe her, just like a little sister.
+                </p>
+                <p class="prod__desc-content">
+                    A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright.
+                    Such a doll will be an excellent choice for a gift for a girl from 4 years old.
+                </p>
+                <p class="prod__desc-content">
+                    The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water,
+                    a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll,
+                    the other for her young mistress.
+                </p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/app.js" defer></script>
+    @@include('blocks/footer.html')
+
+</body>
+
+</html>

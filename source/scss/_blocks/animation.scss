@@ -1,0 +1,287 @@
+.animation {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    &__weather {
+        position: absolute;
+        margin-top: 10px;
+        animation: weather 80s linear infinite;
+    }
+    &__city {
+        position: relative;
+        margin-top: 120px;
+    }
+    &__car-one {
+        left: 2%;
+        position: absolute;
+        top: 90%;
+        animation: car_one 25s linear infinite;
+    }
+    &__img-car--one {
+        width: 140px;
+    }
+    &__front-car--one {
+        left: 101px;
+        position: absolute;
+        top: 31px;
+        width: 26px;
+        animation: wheels 8s linear infinite;
+    }
+    &__back-car--one {
+        left: 19px;
+        position: absolute;
+        top: 31px;
+        width: 26px;
+        animation: wheels 4s linear infinite;
+    }
+    &__car-two {
+        left: 30%;
+        position: absolute;
+        top: 87%;
+        animation: car_two 25s linear infinite;
+    }
+    &__img-car--two {
+        width: 150px;
+    }
+    &__front-car--two {
+        position: absolute;
+        top: 46px;
+        width: 26px;
+        left: 112px;
+        animation: wheels 8s linear infinite; 
+    }
+    &__back-car--two {
+        position: absolute;
+        top: 46px;
+        width: 26px;
+        left: 11px;
+        animation: wheels 8s linear infinite;
+    }
+    &__car-three {
+        left: 49%;
+        position: absolute;
+        top: 91%;
+        animation: car_three 25s linear infinite;
+    }
+    &__img-car--three {
+        width: 140px;
+    }
+    &__front-car--three {
+        position: absolute;
+        top: 20px;
+        width: 18px;
+        left: 104px;
+        animation: wheels 8s linear infinite; 
+    }
+    &__back-car--three {
+        position: absolute;
+        top: 20px;
+        width: 18px;
+        left: 23px;
+        animation: wheels 8s linear infinite;
+    }
+    &__car-four {
+        left: 82%;
+        position: absolute;
+        top: 88%;
+        animation: car_four 25s linear infinite;
+    }
+    &__img-car--four {
+        width: 140px;
+    }
+    &__front-car--four {
+        position: absolute;
+        top: 38px;
+        width: 29px;
+        left: 100px;
+        animation: wheels 8s linear infinite; 
+    }
+    &__back-car--four {
+        position: absolute;
+        top: 38px;
+        width: 29px;
+        left: 18px;
+        animation: wheels 8s linear infinite;
+    }
+    &__lights-first {
+        left: 18%;
+        position: absolute;
+        top: 63%;
+        width: 100px;
+    }
+    &__lights-second {
+        left: 95%;
+        position: absolute;
+        top: 63%;
+        width: 109px;
+    }
+    &__taxi {
+        left: 82%;
+        position: absolute;
+        top: 99%;
+        animation: taxi 29s linear infinite;
+    }
+    &__taxi-message {
+        left: 71px;
+        position: absolute;
+        top: -51px;
+        width: 96px;
+        animation: taxi_message 40s linear infinite;
+    }
+    &__img-taxi {
+        position: relative;
+        width: 300px;
+    }
+    &__front-taxi {
+        position: absolute;
+        top: 59px;
+        width: 31px;
+        left: 215px;
+        animation: wheels 2s linear infinite; 
+    }
+    &__back-taxi {
+        position: absolute;
+        top: 59px;
+        width: 31px;
+        left: 42px;
+        animation: wheels 2s linear infinite;
+    }
+    &__light {
+        left: 80%;
+        position: absolute;
+        top: 80%;
+        width: 115px;
+    }
+    &__man {
+        position: absolute;
+        top: 90%;
+        left: 12%;
+        width: 100px;
+    }
+    &__man-message {
+        left: 12%;
+        position: absolute;
+        top: 84%;
+        width: 90px; 
+        animation: mm 33s linear infinite;
+    }
+    &__woman {
+        position: absolute;
+        top: 99%;
+        left: 5%;
+        width: 130px;
+        z-index: 1;
+    }
+    &__woman-message {
+        left: 4%;
+        position: absolute;
+        top: 92%;
+        width: 80px;
+        animation: wm 30s linear infinite;
+    }
+}
+
+@keyframes weather {
+    100% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes wheels {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes car_one {
+    0% {
+        transform: translateX(-1500px);
+    }
+    100% {
+        transform: translateX(1500px);
+    }
+}
+
+@keyframes car_two {
+    0% {
+        transform: translateX(-1800px);
+    }
+    100% {
+        transform: translateX(1800px);
+    }
+}
+
+@keyframes car_three {
+    0% {
+        transform: translateX(-1800px);
+    }
+    100% {
+        transform: translateX(1800px);
+    }
+}
+
+@keyframes car_four {
+    0% {
+        transform: translateX(-1800px);
+    }
+    100% {
+        transform: translateX(1800px);
+    }
+}
+
+@keyframes taxi {
+    0% {
+        transform: translateX(1800px);
+    }
+    100% {
+        transform: translateX(-1800px);
+    }
+}
+
+@keyframes taxi_message {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    52% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes mm {
+    0% {
+        opacity: 0;
+    }
+    47% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes wm {
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    47% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

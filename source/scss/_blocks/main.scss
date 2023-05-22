@@ -1,0 +1,22 @@
+/*MAIN*/
+.hidden {
+    display: none;
+  }
+  
+  .switch__arrow {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .switch__arrow:hover {
+    color: #C29974;
+  }
+  
+  .switch__arrow:active {
+    opacity: 0.7;
+    color: #C29974;
+  }
